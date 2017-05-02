@@ -25,4 +25,9 @@ it "should be able to convert 1999 to MCMXCIX" do
     expect(RomanNumerals.convert(1999)).to eq("MCMXCIX")
   end
 
+  it "should be able to convert M to 1000" do
+    expect(RomanNumerals.convert("M")).to eq(1000)
+  end
+
+
 end
